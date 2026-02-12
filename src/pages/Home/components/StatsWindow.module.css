@@ -1,0 +1,13 @@
+.statsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.left-rotate {
+  transform: rotate(-5deg);
+}
+
+.right-rotate {
+  transform: rotate(5deg);
+}
