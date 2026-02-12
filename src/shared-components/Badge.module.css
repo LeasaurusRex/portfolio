@@ -1,0 +1,12 @@
+.badge {
+  display: inline-block;
+  border: var(--border-s);
+  padding: 0.25em 0.5em;
+  font-family: var(--font-mono);
+  color: var(--ink);
+}
+
+.shadow {
+  border: var(--border);
+  box-shadow: var(--shadow-light);
+}
