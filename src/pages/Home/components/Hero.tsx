@@ -1,6 +1,6 @@
 import styles from "./Hero.module.css";
-import Badge from "@/shared-components/Badge";
-import Button from "@/shared-components/Button";
+import Badge from "@/shared/components/Badge";
+import Button from "@/shared/components/Button";
 
 function Hero() {
   return (
@@ -32,7 +32,6 @@ function Hero() {
           <Button variant="white">GitHub →</Button>
         </div>
       </div>
-      {/* <StatsWindow /> */}
     </section>
   );
 }

@@ -1,0 +1,35 @@
+.sticker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.25rem 0.875rem;
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  max-height: 100px;
+}
+
+.sticker:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-md);
+}
+
+.text {
+  font-family: var(--font-archivo);
+  font-size: var(--font-xl);
+}
+
+.subtext {
+  font-family: var(--font-mono);
+  font-size: var(--font-s);
+  color: var(--ink);
+}
+
+.leftRotate {
+  transform: rotate(-1deg);
+}
+.rightRotate {
+  transform: rotate(1deg);
+}

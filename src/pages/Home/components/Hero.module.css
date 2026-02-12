@@ -21,7 +21,7 @@
 }
 
 .title {
-  font-family: var(--font-display);
+  font-family: var(--font-archivo);
   font-size: clamp(2.6rem, 5vw, 4rem);
   line-height: 1;
   letter-spacing: -1px;

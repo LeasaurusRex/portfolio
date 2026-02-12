@@ -28,15 +28,18 @@
   --peach-deep: #d4825a;
 
   /* Fonts */
-  --font-display: "Archivo Black", sans-serif;
-  --font-body: "Space Grotesk", sans-serif;
+  --font-archivo: "Archivo Black", sans-serif;
+  --font-spaceg: "Space Grotesk", sans-serif;
   --font-mono: "DM Mono", monospace;
 
   --font-xs: 10px;
   --font-s: 12px;
   --font-base: 16px;
   --font-l: 20px;
-  --font-xl: 28px /* Shadows */ --shadow-light: 2px 2px 0 var(--ink-20);
+  --font-xl: 28px;
+
+  /* Shadows */
+  --shadow-light: 2px 2px 0 var(--ink-20);
   --shadow-sm: 2px 2px 0 var(--ink);
   --shadow-md: 4px 4px 0 var(--ink);
   --shadow-lg: 6px 6px 0 var(--ink);
@@ -60,7 +63,7 @@
 body {
   background: var(--cream);
   color: var(--ink);
-  font-family: var(--font-body);
+  font-family: var(--font-spaceg);
   font-size: 16px;
   line-height: 1.6;
 }
@@ -120,6 +123,10 @@ body::before {
   background: var(--peach);
 }
 
+.white {
+  background: var(--white);
+}
+
 /* FONT SIZES */
 .font-xs {
   font-size: var(--font-xs);
@@ -135,4 +142,14 @@ body::before {
 }
 .font-xl {
   font-size: var(--font-xl);
+}
+
+/* Horizontal line */
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--cream-2);
+  margin: 0 1em;
+  padding: 0;
 }

@@ -1,10 +1,11 @@
 import styles from "./Badge.module.css";
+import { Color, FontSize } from "@/shared/utils/constants";
 
 interface BadgeProps {
   children: React.ReactNode;
-  variant?: "pink" | "mint" | "lavender" | "yellow" | "peach" | "sky";
+  variant?: Color;
   withShadow?: boolean;
-  fontSize?: "xs" | "s" | "base" | "l" | "xl";
+  fontSize?: FontSize;
 }
 
 function Badge({
