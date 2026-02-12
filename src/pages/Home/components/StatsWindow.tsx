@@ -1,7 +1,7 @@
 import styles from "./StatsWindow.module.css";
-import Window from "@/shared/components/Window";
+import Window from "@/shared/Window";
 import BadgeList from "@/pages/Home/components/BadgeList";
-import Sticker from "@/shared/components/Sticker";
+import Sticker from "@/shared/Sticker";
 
 function StatsWindow() {
   return (

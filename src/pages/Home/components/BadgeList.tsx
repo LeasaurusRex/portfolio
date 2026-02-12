@@ -1,5 +1,5 @@
 import styles from "./BadgeList.module.css";
-import Badge from "@/shared/components/Badge";
+import Badge from "@/shared/Badge";
 
 function BadgeList() {
   return (
