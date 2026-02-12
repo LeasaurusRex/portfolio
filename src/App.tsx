@@ -1,14 +1,12 @@
-
-import './App.css'
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home.tsx";
 
 function App() {
- 
   return (
-    <div className="App"> 
-      <h1>Welcome to my React app</h1>
-        <p>Start of a new project</p>
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
