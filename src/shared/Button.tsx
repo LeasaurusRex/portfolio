@@ -6,6 +6,7 @@ interface ButtonProps {
   size?: "sm" | "md" | "lg";
   onClick?: () => void;
   icon?: React.ReactNode;
+  href?: string;
 }
 
 function Button({
@@ -14,10 +15,19 @@ function Button({
   size = "md",
   onClick,
   icon,
+  href,
 }: ButtonProps) {
   const classes = `${styles.btn} ${styles[variant]} ${styles[size]}`;
 
-  // Si c'est un bouton
+  if (href) {
+    return (
+      <a href={href} className={classes}>
+        {children}
+        {icon && <span className={styles.icon}>{icon}</span>}
+      </a>
+    );
+  }
+
   return (
     <button className={classes} onClick={onClick}>
       {children}
