@@ -5,14 +5,19 @@ function Footer() {
     <footer>
       <p className={styles.footerTitle}>leapauly.dev</p>
       <div className={styles.footerLinksContainer}>
-        <a className={styles.footerLink} href="">
+        <a
+          className={styles.footerLink}
+          href="https://www.linkedin.com/in/leapauly/"
+          target="_blank"
+        >
           LinkedIn →
         </a>
-        <a className={styles.footerLink} href="">
+        <a
+          className={styles.footerLink}
+          href="https://github.com/LeasaurusRex"
+          target="_blank"
+        >
           GitHub →
-        </a>
-        <a className={styles.footerLink} href="">
-          lea.pauly@hotmail.fr
         </a>
       </div>
       <p className={styles.footerSignature}>

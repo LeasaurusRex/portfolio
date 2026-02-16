@@ -1,0 +1,12 @@
+.barBg {
+  height: 10px;
+  background: var(--cream-2);
+  border: 1.5px solid var(--ink);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-right: 1.5px solid var(--ink);
+  transition: width 0.6s ease;
+}
