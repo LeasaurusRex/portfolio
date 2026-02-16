@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer>
       <p className={styles.footerTitle}>leapauly.dev</p>
       <div className={styles.footerLinksContainer}>
         <a className={styles.footerLink} href="">

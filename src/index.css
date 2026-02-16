@@ -66,6 +66,7 @@ body {
   font-family: var(--font-spaceg);
   font-size: 16px;
   line-height: 1.6;
+  margin-bottom: 6rem;
 }
 
 /* Grid background */

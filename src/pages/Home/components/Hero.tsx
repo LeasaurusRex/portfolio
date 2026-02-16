@@ -4,13 +4,14 @@ import Button from "@/shared/Button";
 
 function Hero() {
   return (
-    <section>
+    <article>
       <div className={styles.heroContent}>
         <div className={styles.heroEyebrow}>
           <Badge variant="mint" withShadow fontSize="s">
             <p>
               Développeuse Full-Stack <span className="text-mint-deep">✦ </span>
-              <span className="bold">Disponible</span>
+              <span className="bold">Disponible</span>{" "}
+              <span>📍 Rennes, FR</span>
             </p>
           </Badge>
 
@@ -32,7 +33,7 @@ function Hero() {
           <Button variant="white">GitHub →</Button>
         </div>
       </div>
-    </section>
+    </article>
   );
 }
 

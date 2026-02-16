@@ -4,10 +4,10 @@ import Hero from "@/pages/Home/components/Hero.tsx";
 
 function Home() {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <Hero />
       <StatsWindow />
-    </div>
+    </section>
   );
 }
 
