@@ -9,7 +9,7 @@ function Hero() {
         <div className={styles.heroEyebrow}>
           <Badge variant="mint" withShadow fontSize="s">
             <p>
-              Développeuse Full-Stack <span className="text-mint-deep">✦ </span>
+              <span className={styles.star}>✦</span>{" "}
               <span className="bold">Disponible</span>{" "}
               <span>📍 Rennes, FR</span>
             </p>
@@ -18,13 +18,12 @@ function Hero() {
           <p className="mono bold">Angular · NestJS · React</p>
         </div>
         <h1 className={styles.title}>
-          <span className={styles.titleOutline}>EXPLORER.</span>
-          <span className={styles.titleOutline}>INCLURE.</span>
-          <span className={styles.titleFilled}>CRÉER.</span>
+          <span className={styles.titleOutline}>DÉVELOPPEUSE</span>
+          <span className={styles.titleFilled}>FULL-STACK</span>
         </h1>
         <p className={styles.heroDesc}>
-          Reconvertie en 2022, je conçois des apps web{" "}
-          <span className="bold">du front au back</span> avec une passion pour{" "}
+          Je conçois des apps web <span className="bold">du front au back</span>{" "}
+          avec un intérêt particulier pour{" "}
           <span className="bold">l'accessibilité</span> et les interfaces qui
           ont du caractère. <br />
         </p>

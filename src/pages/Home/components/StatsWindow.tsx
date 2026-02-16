@@ -10,23 +10,23 @@ function StatsWindow() {
         <div className={styles.statsContainer}>
           <Sticker
             color="yellow"
-            text="2.5"
+            text="3"
             subtext="ANS D'EXPÉRIENCE"
             rotation="right"
           />
           <Sticker
             color="pink"
             text="47"
-            subtext="FONCTIONNALITÉS LIVRÉES"
+            subtext="FONCTIONNALITÉS EN PRODUCTION"
             rotation="left"
           />
           <Sticker
-            color="sky"
+            color="mint"
             text="40"
             subtext="JOURS ETP/MOIS ÉCONOMISÉS"
             rotation="left"
           />
-          <Sticker color="white" text="♿️" subtext="A11Y" rotation="right" />
+          <Sticker color="sky" text="♿️" subtext="A11Y" rotation="right" />
         </div>
       </Window>
     </article>

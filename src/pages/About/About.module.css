@@ -1,4 +1,6 @@
 .title {
+  font-family: var(--font-archivo);
+  font-size: var(--font-xxl);
   padding: 5rem 2rem 0rem;
 }
 
@@ -13,15 +15,42 @@
 .star {
   display: inline-block;
   color: var(--lav-deep);
-  font-size: 1rem;
-  animation: spin 8s linear infinite;
+  animation: pulse 2s ease-in-out infinite;
+  transform-origin: center;
 }
 
-@keyframes spin {
+@keyframes pulse {
   0% {
-    transform: rotate(0deg);
+    transform: scale(0.85);
   }
+
+  50% {
+    transform: scale(1);
+  }
+
   100% {
-    transform: rotate(360deg);
+    transform: scale(0.85);
+  }
+}
+
+.secondTitle {
+  font-family: var(--font-archivo);
+  font-size: var(--font-xl);
+  padding: 5rem 2rem 0rem;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 2rem;
+  padding: 2rem 2rem 0rem;
+}
+
+@media (max-width: 768px) {
+  .skillsContainer {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding: 3rem 1.5rem;
   }
 }

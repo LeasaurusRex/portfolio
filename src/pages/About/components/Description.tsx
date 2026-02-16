@@ -4,23 +4,24 @@ function Description() {
   return (
     <section className={styles.container}>
       <article>
-        <p>
-          Reconvertie en 2022 et basée à Rennes, je suis
+        <p className={styles.desc}>
+          Basée à Rennes — et après une reconversion réussie en 2022 — je suis
           <span className="bold"> développeuse full-stack </span>
-          depuis <span className="bold"> 3 ans</span>, et j'ai principalement
-          travaillé sur la stack{" "}
+          depuis <span className="bold"> 3 ans</span> sur la stack{" "}
           <span className="bold"> Angular / NestJS / MongoDB</span>.
         </p>
-        <p>
+        <p className={styles.desc}>
           Au cours de mon expérience en <span className="bold">insurtech</span>,
+          j'étais en charge de l'espace client web (post-authentification) et
           j'ai mis en production
-          <span className="bold"> 47 fonctionnalités </span> qui ont permis
-          d'économiser 40j ETP/mois pour mes collègues du service client et j'ai
-          animé le groupe de travail
-          <span className="bold"> accessibilité web (RGAA) </span> — un sujet
-          qui me tient profondément à cœur.
+          <span className="bold"> 47 fonctionnalités </span> pour améliorer
+          l'autonomie client, ce qui a également permis d'économiser 40j
+          ETP/mois pour mes collègues du service client. J'animais également un
+          groupe de travail
+          <span className="bold"> accessibilité web (RGAA) </span>, sujet qui me
+          tient profondément à cœur et que je souhaite approfondir.
         </p>
-        <p>
+        <p className={styles.desc}>
           Actuellement en apprentissage sur
           <span className="bold"> React </span> (comme le prouve ce portfolio),
           j'ai été sélectionnée pour participer au

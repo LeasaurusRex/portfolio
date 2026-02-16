@@ -1,0 +1,8 @@
+.title {
+  font-family: var(--font-mono);
+  font-size: var(--font-base);
+  color: var(--ink-60);
+  letter-spacing: 4px;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}

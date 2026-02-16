@@ -20,6 +20,27 @@
   gap: 1.5rem;
 }
 
+.star {
+  display: inline-block;
+  color: var(--mint-deep);
+  animation: pulse 2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .title {
   font-family: var(--font-archivo);
   font-size: clamp(2.6rem, 5vw, 4rem);

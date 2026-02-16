@@ -36,7 +36,8 @@
   --font-s: 12px;
   --font-base: 16px;
   --font-l: 20px;
-  --font-xl: 28px;
+  --font-xl: 24px;
+  --font-xxl: 28px;
 
   /* Shadows */
   --shadow-light: 2px 2px 0 var(--ink-20);
@@ -152,5 +153,9 @@ body::before {
   border: 0;
   border-top: 1px solid var(--cream-2);
   margin: 0 1em;
+  padding: 0;
+}
+
+p {
   padding: 0;
 }
