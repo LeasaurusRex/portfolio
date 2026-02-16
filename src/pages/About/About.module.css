@@ -1,0 +1,27 @@
+.title {
+  padding: 5rem 2rem 0rem;
+}
+
+.accented {
+  color: var(--lav-deep);
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: var(--lavender);
+  text-underline-offset: 4px;
+}
+
+.star {
+  display: inline-block;
+  color: var(--lav-deep);
+  font-size: 1rem;
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
