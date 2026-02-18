@@ -9,6 +9,7 @@ function Footer() {
           className={styles.footerLink}
           href="https://www.linkedin.com/in/leapauly/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn →
         </a>
@@ -16,6 +17,7 @@ function Footer() {
           className={styles.footerLink}
           href="https://github.com/LeasaurusRex"
           target="_blank"
+          rel="noopener noreferrer"
         >
           GitHub →
         </a>

@@ -5,7 +5,7 @@ function Description() {
     <section className={styles.container}>
       <article>
         <p className={styles.desc}>
-          Basée à Rennes — et après une reconversion réussie en 2022 — je suis
+          Basée à Rennes, je suis
           <span className="bold"> développeuse full-stack </span>
           depuis <span className="bold"> 3 ans</span> sur la stack{" "}
           <span className="bold"> Angular / NestJS / MongoDB</span>.
@@ -15,18 +15,19 @@ function Description() {
           j'étais en charge de l'espace client web (post-authentification) et
           j'ai mis en production
           <span className="bold"> 47 fonctionnalités </span> pour améliorer
-          l'autonomie client, ce qui a également permis d'économiser 40j
-          ETP/mois pour mes collègues du service client. J'animais également un
-          groupe de travail
+          l'autonomie client, ce qui a également permis d'économiser{" "}
+          <span className="bold">40j ETP/mois</span> pour mes collègues du
+          service client. J'animais également un groupe de travail
           <span className="bold"> accessibilité web (RGAA) </span>, sujet qui me
-          tient profondément à cœur et que je souhaite approfondir.
+          tient à cœur et que je continue d'approfondir.
         </p>
         <p className={styles.desc}>
           Actuellement en apprentissage sur
           <span className="bold"> React </span> (comme le prouve ce portfolio),
           j'ai été sélectionnée pour participer au
           <span className="bold"> Hackathon Développeurs </span> organisé par
-          France Travail, Opco Atlas et Alt en mars 2026.
+          France Travail, Opco Atlas et Alt en{" "}
+          <span className="bold">février-mars 2026</span>.
           <br />
         </p>
       </article>

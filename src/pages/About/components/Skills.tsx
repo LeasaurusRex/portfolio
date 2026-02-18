@@ -23,28 +23,23 @@ function Skills() {
           <span className={styles.name}>React</span>
           <span className={styles.level}>En cours d'apprentissage</span>
         </div>
-        <Skillbar width="40%" color="lavender" />
+        <Skillbar width="45%" color="lavender" />
       </div>
       <div>
         <div className={styles.header}>
           <span className={styles.name}>Accessibilité RGAA</span>
           <span className={styles.level}>Intermédiaire</span>
         </div>
-        <Skillbar width="75%" color="yellow" />
+        <Skillbar width="70%" color="yellow" />
       </div>
       <div>
         <div className={styles.header}>
-          <span className={styles.name}>Docker</span>
+          <span className={styles.name}>
+            Docker • CI/CD • SonarQube • Grafana
+          </span>
           <span className={styles.level}>Utilisatrice</span>
         </div>
         <Skillbar width="50%" color="sky" />
-      </div>
-      <div>
-        <div className={styles.header}>
-          <span className={styles.name}>CI/CD</span>
-          <span className={styles.level}>Utilisatrice</span>
-        </div>
-        <Skillbar width="50%" color="peach" />
       </div>
     </div>
   );

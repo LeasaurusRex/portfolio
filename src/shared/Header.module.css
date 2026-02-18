@@ -92,3 +92,7 @@
 .link:hover::before {
   transform: scaleX(1);
 }
+
+.link.active {
+  font-weight: bold;
+}
