@@ -35,7 +35,7 @@ function Timeline() {
     <div className={styles.timeline}>
       <TimelineItem
         date="MARS 2026"
-        title="HACKATHON DÉVELOPPEURS"
+        title="Hackathon Développeurs"
         subtitle="France Travail / OPCO Atlas / ALT · Rennes"
         description="à venir"
         isActive={true}
@@ -52,7 +52,7 @@ function Timeline() {
         date="OCTOBRE — DÉCEMBRE 2022"
         title="POEI Développeur·se Full-stack JavaScript"
         subtitle="Zenika Academy · Rennes"
-        description="TypeScript · Angular · NestJS · MongoDB · Docker · Node.js · Express"
+        description="JavaScript · TypeScript · Angular · NestJS · MongoDB · Docker · Node.js · Express"
       />
 
       <TimelineItem

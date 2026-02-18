@@ -28,8 +28,12 @@ function Hero() {
           ont du caractère. <br />
         </p>
         <div className={styles.heroActions}>
-          <Button variant="pink">✦ Voir mes projets</Button>
-          <Button variant="white">GitHub →</Button>
+          <Button variant="pink" to="/realisations">
+            ✦ Voir mes projets
+          </Button>
+          <Button variant="white" href="https://github.com/LeasaurusRex">
+            GitHub →
+          </Button>
         </div>
       </div>
     </article>
