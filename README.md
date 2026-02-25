@@ -6,7 +6,6 @@ Une vitrine Y2K construite avec React et CSS modules, conçue pour refléter ma 
 - React 18
 - TypeScript
 - React Router
-- Tailwind CSS
 
 ## Statut
 🚧 Projet en cours de développement (déploiement prévu en Mars 2026)
