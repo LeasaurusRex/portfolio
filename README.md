@@ -18,12 +18,6 @@ Une vitrine Y2K construite avec React et CSS modules, conçue pour refléter ma 
 - [ ] Responsive design (90%)
 - [ ] Déploiement
 
-## Installation locale
-\`\`\`bash
-npm install
-npm start
-\`\`\`
-
 ---
 
 Développé par Léa Pauly | [LinkedIn](https://linkedin.com/in/leapauly)
