@@ -5,7 +5,7 @@ import Sticker from "@/shared/Sticker";
 
 function StatsWindow() {
   return (
-    <article>
+    <article className={styles.statsWindow}>
       <Window size="md" title="stats.json" footer={<BadgeList />}>
         <div className={styles.statsContainer}>
           <Sticker

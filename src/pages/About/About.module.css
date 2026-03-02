@@ -51,6 +51,14 @@
   .skillsContainer {
     grid-template-columns: 1fr;
     gap: 3rem;
-    padding: 3rem 1.5rem;
+    padding: 0 2rem;
+  }
+
+  .secondTitle {
+    padding: 2rem;
+  }
+
+  .title {
+    padding: 2rem;
   }
 }

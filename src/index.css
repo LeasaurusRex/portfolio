@@ -65,7 +65,7 @@ body {
   background: var(--cream);
   color: var(--ink);
   font-family: var(--font-spaceg);
-  font-size: 16px;
+  font-size: var(--font-base);
   line-height: 1.6;
   margin-bottom: 6rem;
 }
@@ -83,21 +83,12 @@ body::before {
   z-index: -1;
 }
 
-/* Classes utilitaires */
+/* Utility classes */
 .bold {
   font-weight: bold;
 }
 .mono {
   font-family: var(--font-mono);
-}
-.text-ink {
-  color: var(--ink);
-}
-.text-ink60 {
-  color: var(--ink-60);
-}
-.text-mint-deep {
-  color: var(--mint-deep);
 }
 
 /* BACKGROUND COLORS */

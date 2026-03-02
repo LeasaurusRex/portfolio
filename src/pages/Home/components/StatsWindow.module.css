@@ -1,3 +1,11 @@
+.statsWindow {
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+}
+
 .statsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -10,4 +18,13 @@
 
 .right-rotate {
   transform: rotate(5deg);
+}
+
+@media (max-width: 768px) {
+  .statsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+  }
 }
