@@ -52,7 +52,7 @@ function Header() {
               à propos
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               className={({ isActive }) =>
                 `${styles.link} ${isActive ? styles.active : ""}`
@@ -62,7 +62,7 @@ function Header() {
             >
               réalisations
             </NavLink>
-          </li> */}
+          </li>
         </ul>
       </nav>
       <div className={styles.navCtaDesktop}>

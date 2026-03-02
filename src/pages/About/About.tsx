@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import typography from "@/shared/typography.module.css";
 import Description from "./components/Description";
 import Experience from "./components/Experience";
 
@@ -6,8 +7,8 @@ function About() {
   return (
     <div className={styles.content}>
       <h1 className={styles.title}>
-        À propos de <span className={styles.accented}>moi</span>{" "}
-        <span className={styles.star}>✦</span>
+        À propos de <span className={typography.accented}>moi</span>{" "}
+        <span className={typography.star}>✦</span>
       </h1>
       <Description />
       <h2 className={styles.secondTitle}>

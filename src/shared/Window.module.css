@@ -8,6 +8,7 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.5rem;
   padding: 0.65rem 1rem;
   background: var(--cream-3);
@@ -25,6 +26,11 @@
 }
 
 /* DOTS */
+.dotsContainer {
+  display: flex;
+  gap: 10px;
+}
+
 .dot {
   width: 10px;
   height: 10px;
