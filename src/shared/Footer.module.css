@@ -52,3 +52,14 @@ footer {
 .footerLink:hover::before {
   transform: scaleX(1);
 }
+
+@media (max-width: 768px) {
+  .footerTitle {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}

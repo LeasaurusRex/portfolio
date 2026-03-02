@@ -3,7 +3,6 @@
   padding-left: 2.5rem;
 }
 
-/* Ligne verticale */
 .timeline::before {
   content: "";
   position: absolute;
@@ -23,7 +22,6 @@
   padding-bottom: 0;
 }
 
-/* Points de la timeline */
 .dot {
   position: absolute;
   left: -2rem;
@@ -40,7 +38,6 @@
   background: var(--pink);
 }
 
-/* Contenu */
 .content {
   padding-left: 0.5rem;
 }
@@ -95,5 +92,9 @@
 
   .timelineItem {
     padding-bottom: 2.5rem;
+  }
+
+  .timeline::before {
+    left: 0.65rem;
   }
 }
