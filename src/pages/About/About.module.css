@@ -1,7 +1,7 @@
 .title {
   font-family: var(--font-archivo);
   font-size: var(--font-xxl);
-  padding: 5rem 2rem 0rem;
+  padding: 3rem 2rem 0rem;
 }
 
 .accented {
@@ -36,7 +36,7 @@
 .secondTitle {
   font-family: var(--font-archivo);
   font-size: var(--font-xl);
-  padding: 5rem 2rem 0rem;
+  padding: 3rem 2rem 0rem;
 }
 
 .skillsContainer {

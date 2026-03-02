@@ -6,7 +6,8 @@ interface WindowProps {
   headerColor?: string;
   statusBadge?: React.ReactNode;
   children: React.ReactNode;
-  footer: React.ReactNode;
+  footer?: React.ReactNode;
+  className?: string;
 }
 
 function Window({
@@ -16,8 +17,10 @@ function Window({
   statusBadge,
   children,
   footer,
+  className,
 }: WindowProps) {
-  const windowClasses = `${styles.window} ${styles[size]}`;
+  const windowClasses =
+    `${styles.window} ${styles[size]} ${className ?? ""}`.trim();
   const headerClasses = `${styles.header} ${styles[headerColor]}`;
   const redDot = `${styles.dot} ${styles.dotRed}`;
   const yellowDot = `${styles.dot} ${styles.dotYellow}`;
@@ -26,9 +29,11 @@ function Window({
   return (
     <div className={windowClasses}>
       <div className={headerClasses}>
-        <span className={redDot} />
-        <span className={yellowDot} />
-        <span className={greenDot} />
+        <div className={styles.dotsContainer}>
+          <span className={redDot} />
+          <span className={yellowDot} />
+          <span className={greenDot} />
+        </div>
         <p className={styles.title}>{title}</p>
         <div>{statusBadge}</div>
       </div>

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 3rem 2rem 0rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem;
+  }
+}
+
+.title {
+  font-family: var(--font-archivo);
+  font-size: var(--font-xxl);
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardTitle {
+  font-family: var(--font-archivo);
+  font-size: var(--font-l);
+}
+
+.badgesList {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+/* TODO : activer quand la card sera cliquable
+.card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-xl);
+} */
