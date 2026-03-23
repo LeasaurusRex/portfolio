@@ -1,8 +1,8 @@
-import { useState } from "react";
-import styles from "./Header.module.css";
 import leasaur from "@/assets/leasaur.png";
 import Button from "@/shared/Button.tsx";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import styles from "./Header.module.css";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,6 +71,7 @@ function Header() {
           size="md"
           children="✦ Me contacter"
           href="https://www.linkedin.com/in/leapauly/"
+          aria-label="Aller sur mon profil LinkedIn (nouvel onglet)"
         />
       </div>
       {/* Burger button for mobile and tablet display */}
