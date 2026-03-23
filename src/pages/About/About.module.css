@@ -1,7 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+  padding: 5rem 2rem 4rem;
+}
+
 .title {
   font-family: var(--font-archivo);
   font-size: var(--font-xxl);
-  padding: 3rem 2rem 0rem;
 }
 
 .accented {
@@ -36,7 +43,6 @@
 .secondTitle {
   font-family: var(--font-archivo);
   font-size: var(--font-xl);
-  padding: 3rem 2rem 0rem;
 }
 
 .skillsContainer {
@@ -44,14 +50,12 @@
   grid-template-columns: 1fr 1fr;
   align-items: start;
   gap: 2rem;
-  padding: 2rem 2rem 0rem;
 }
 
 @media (max-width: 768px) {
   .skillsContainer {
     grid-template-columns: 1fr;
     gap: 3rem;
-    padding: 0 2rem;
   }
 
   .secondTitle {

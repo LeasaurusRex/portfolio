@@ -14,7 +14,7 @@ function Projects() {
   ];
 
   return (
-    <section className={styles.container}>
+    <section className={`pageWrapper ${styles.container}`}>
       <h1 className={styles.title}>
         Mes <span className={typography.accented}>réalisations</span>{" "}
         <span className={typography.star}>✦</span>
