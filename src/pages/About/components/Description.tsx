@@ -28,12 +28,13 @@ function Description() {
           <span className="bold"> Hackathon Développeurs </span> organisé par
           France Travail, Opco Atlas et Alt en{" "}
           <span className="bold">février-mars 2026</span>.
-          <br />
         </p>
       </article>
       <article className={styles.highlight}>
         <div className={styles.highlightItem}>
-          <span className={styles.highlightIcon}>🚀</span>
+          <span className={styles.highlightIcon} aria-hidden="true">
+            🚀
+          </span>
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Angular 16 → 19</div>
             <div className={styles.highlightSub}>
@@ -42,7 +43,9 @@ function Description() {
           </div>
         </div>
         <div className={styles.highlightItem}>
-          <span className={styles.highlightIcon}>♿</span>
+          <span className={styles.highlightIcon} aria-hidden="true">
+            ♿
+          </span>
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Accessibilité RGAA</div>
             <div className={styles.highlightSub}>
@@ -51,7 +54,9 @@ function Description() {
           </div>
         </div>
         <div className={styles.highlightItem}>
-          <span className={styles.highlightIcon}>⚙️</span>
+          <span className={styles.highlightIcon} aria-hidden="true">
+            ⚙️
+          </span>
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Environnement moderne</div>
             <div className={styles.highlightSub}>
@@ -60,7 +65,9 @@ function Description() {
           </div>
         </div>
         <div className={styles.highlightItem}>
-          <span className={styles.highlightIcon}>📦</span>
+          <span className={styles.highlightIcon} aria-hidden="true">
+            📦
+          </span>
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Full-stack</div>
             <div className={styles.highlightSub}>

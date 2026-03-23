@@ -81,9 +81,3 @@
 .footerLink:hover {
   font-weight: bold;
 }
-
-.footerLink:focus-visible {
-  outline: 2px solid var(--lav-deep);
-  outline-offset: 2px;
-  border-radius: 2px;
-}

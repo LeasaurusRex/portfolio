@@ -1,7 +1,7 @@
-import styles from "./StatsWindow.module.css";
-import Window from "@/shared/Window";
 import BadgeList from "@/pages/Home/components/BadgeList";
 import Sticker from "@/shared/Sticker";
+import Window from "@/shared/Window";
+import styles from "./StatsWindow.module.css";
 
 function StatsWindow() {
   return (
@@ -26,7 +26,14 @@ function StatsWindow() {
             subtext="JOURS ETP/MOIS ÉCONOMISÉS"
             rotation="left"
           />
-          <Sticker color="sky" text="♿️" subtext="A11Y" rotation="right" />
+          <Sticker
+            color="sky"
+            text="♿️"
+            subtext="A11Y"
+            rotation="right"
+            ariaLabel="Accessibilité"
+            ariaHiddenText
+          />
         </div>
       </Window>
     </article>

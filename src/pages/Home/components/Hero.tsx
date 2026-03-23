@@ -1,6 +1,6 @@
-import styles from "./Hero.module.css";
 import Badge from "@/shared/Badge";
 import Button from "@/shared/Button";
+import styles from "./Hero.module.css";
 
 function Hero() {
   return (
@@ -23,13 +23,17 @@ function Hero() {
         Je conçois des apps web <span className="bold">du front au back</span>{" "}
         avec un intérêt particulier pour{" "}
         <span className="bold">l'accessibilité</span> et les interfaces qui ont
-        du caractère. <br />
+        du caractère.
       </p>
       <div className={styles.actionButtons}>
         <Button variant="pink" to="/realisations">
           ✦ Voir mes projets
         </Button>
-        <Button variant="white" href="https://github.com/LeasaurusRex">
+        <Button
+          variant="white"
+          href="https://github.com/LeasaurusRex"
+          aria-label="Voir mon GitHub (nouvel onglet)"
+        >
           GitHub →
         </Button>
       </div>

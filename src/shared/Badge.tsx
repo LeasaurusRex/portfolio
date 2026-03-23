@@ -1,5 +1,5 @@
-import styles from "./Badge.module.css";
 import { Color, FontSize } from "@/shared/utils/constants";
+import styles from "./Badge.module.css";
 
 interface BadgeProps {
   children: React.ReactNode;
@@ -16,7 +16,7 @@ function Badge({
 }: BadgeProps) {
   const classes = `${variant} ${styles.badge} ${withShadow ? styles.shadow : ""} font-${fontSize}`;
 
-  return <div className={classes}>{children}</div>;
+  return <span className={classes}>{children}</span>;
 }
 
 export default Badge;

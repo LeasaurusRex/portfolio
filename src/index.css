@@ -162,3 +162,10 @@ p {
     padding: 0 1.5rem;
   }
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--lav-deep);
+  outline-offset: 3px;
+  border-radius: 2px;
+}

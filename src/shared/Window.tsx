@@ -30,9 +30,9 @@ function Window({
     <div className={windowClasses}>
       <div className={headerClasses}>
         <div className={styles.dotsContainer}>
-          <span className={redDot} />
-          <span className={yellowDot} />
-          <span className={greenDot} />
+          <span className={redDot} aria-hidden="true" />
+          <span className={yellowDot} aria-hidden="true" />
+          <span className={greenDot} aria-hidden="true" />
         </div>
         <p className={styles.title}>{title}</p>
         <div>{statusBadge}</div>

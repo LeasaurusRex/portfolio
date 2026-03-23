@@ -181,9 +181,4 @@
     background: var(--cream-2);
     border-left: 3px solid var(--pink);
   }
-
-  .link:focus-visible {
-    outline: 3px solid var(--lav-deep);
-    outline-offset: -3px;
-  }
 }
