@@ -1,7 +1,7 @@
-import styles from "./StatusBadge.module.css";
 import Badge from "@/shared/Badge";
+import styles from "./StatusBadge.module.css";
 
-type Status = "ONLINE" | "IN_PROGRESS" | "SOON";
+export type Status = "ONLINE" | "IN_PROGRESS" | "SOON";
 
 type StatusConfig = {
   label: string;

@@ -17,3 +17,5 @@ export const FontSize = {
   xl: "xl",
 };
 export type FontSize = (typeof FontSize)[keyof typeof FontSize];
+
+export const BADGE_COLORS = ["sky", "pink", "mint", "peach", "lavender"];

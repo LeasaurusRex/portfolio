@@ -5,36 +5,31 @@
   margin: 3rem 2rem 0rem;
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin: 2rem;
-  }
-}
-
 .title {
   font-family: var(--font-archivo);
   font-size: var(--font-xxl);
 }
 
-.cardContainer {
+.cardList {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
+  align-items: stretch;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.cardTitle {
-  font-family: var(--font-archivo);
-  font-size: var(--font-l);
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem;
+  }
+
+  .cardList {
+    flex-direction: column;
+  }
 }
 
-.badgesList {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  margin-top: 0.5rem;
-}
-
-ul {
+.cardList ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -42,8 +37,14 @@ ul {
   flex-wrap: wrap;
 }
 
-li {
+.cardList li {
+  display: flex;
   list-style: none;
+}
+
+.cardList li article {
+  flex: 1;
+  display: flex;
 }
 
 /* TODO : activer quand la card sera cliquable
