@@ -11,11 +11,6 @@
   max-height: 100px;
 }
 
-.sticker:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: var(--shadow-md);
-}
-
 .text {
   font-family: var(--font-archivo);
   font-size: var(--font-xl);

@@ -22,23 +22,35 @@ function Description() {
           tient à cœur et que je continue d'approfondir.
         </p>
         <p className={styles.desc}>
-          Actuellement en apprentissage sur
-          <span className="bold"> React </span> (comme le prouve ce portfolio),
-          j'ai été sélectionnée pour participer au
+          J'ai élargi ma stack à<span className="bold"> React </span> et j'ai
+          été sélectionnée pour participer au
           <span className="bold"> Hackathon Développeurs </span> organisé par
           France Travail, Opco Atlas et Alt en{" "}
-          <span className="bold">février-mars 2026</span>.
+          <span className="bold">mars 2026</span>.
         </p>
       </article>
       <article className={styles.highlight}>
         <div className={styles.highlightItem}>
           <span className={styles.highlightIcon} aria-hidden="true">
+            👩🏻‍💻
+          </span>
+          <div className={styles.highlightItemText}>
+            <div className={styles.highlightTitle}>3 ans d'expérience</div>
+            <div className={styles.highlightSub}>
+              Développement web en insurtech
+            </div>
+          </div>
+        </div>
+        <div className={styles.highlightItem}>
+          <span className={styles.highlightIcon} aria-hidden="true">
             🚀
           </span>
           <div className={styles.highlightItemText}>
-            <div className={styles.highlightTitle}>Angular 16 → 19</div>
+            <div className={styles.highlightTitle}>
+              47 fonctionnalités en production
+            </div>
             <div className={styles.highlightSub}>
-              Participation à la refonte technique
+              Pour une économie de 40j ETP par mois
             </div>
           </div>
         </div>
@@ -60,7 +72,7 @@ function Description() {
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Environnement moderne</div>
             <div className={styles.highlightSub}>
-              Kubernetes · Docker · CI/CD · Microservices
+              Kubernetes · Docker · CI/CD · Microservices · Agile · RGAA
             </div>
           </div>
         </div>
@@ -71,7 +83,7 @@ function Description() {
           <div className={styles.highlightItemText}>
             <div className={styles.highlightTitle}>Full-stack</div>
             <div className={styles.highlightSub}>
-              70% front — 30% back (en progression)
+              Angular · NestJS · TypeScript · Tailwind CSS · MongoDB · React
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
-import styles from "./Skills.module.css";
 import Skillbar from "./Skillbar";
+import styles from "./Skills.module.css";
 
 function Skills() {
   return (
@@ -9,21 +9,21 @@ function Skills() {
           <span className={styles.name}>Angular</span>
           <span className={styles.level}>Intermédiaire</span>
         </div>
-        <Skillbar width="75%" color="pink" />
+        <Skillbar width="80%" color="pink" />
       </div>
       <div>
         <div className={styles.header}>
           <span className={styles.name}>NestJS</span>
           <span className={styles.level}>En progression</span>
         </div>
-        <Skillbar width="60%" color="mint" />
+        <Skillbar width="70%" color="mint" />
       </div>
       <div>
         <div className={styles.header}>
           <span className={styles.name}>React</span>
-          <span className={styles.level}>En cours d'apprentissage</span>
+          <span className={styles.level}>En progression</span>
         </div>
-        <Skillbar width="45%" color="lavender" />
+        <Skillbar width="60%" color="lavender" />
       </div>
       <div>
         <div className={styles.header}>
@@ -37,7 +37,7 @@ function Skills() {
           <span className={styles.name}>
             Docker • CI/CD • SonarQube • Grafana
           </span>
-          <span className={styles.level}>Utilisatrice</span>
+          <span className={styles.level}>Notions</span>
         </div>
         <Skillbar width="50%" color="sky" />
       </div>

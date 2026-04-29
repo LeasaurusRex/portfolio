@@ -37,7 +37,7 @@ function Timeline() {
         date="MARS 2026"
         title="Hackathon Développeurs"
         subtitle="France Travail / OPCO Atlas / ALT · Rennes"
-        description="à venir"
+        description="React · TypeScript · NestJS · PostgreSQL · Prisma · Docker"
         isActive={true}
       />
 
@@ -45,7 +45,7 @@ function Timeline() {
         date="JAN. 2023 — AOÛT 2025"
         title="Développeuse Full-Stack"
         subtitle="Leocare (Insurlytech) · Rennes"
-        description="Angular · NestJS · MongoDB"
+        description="Angular · NestJS · MongoDB · Tailwind CSS · Docker · Kubernetes · RGAA · CI/CD GitHub Actions · SonarQube"
       />
 
       <TimelineItem
