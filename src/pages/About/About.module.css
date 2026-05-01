@@ -53,16 +53,13 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .skillsContainer {
     grid-template-columns: 1fr;
     gap: 3rem;
-  }
-
-  .secondTitle {
-    padding: 2rem;
-  }
-
-  .title {
-    padding: 2rem;
   }
 }
