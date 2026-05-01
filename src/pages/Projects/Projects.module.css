@@ -22,11 +22,17 @@
 
 @media (max-width: 768px) {
   .container {
-    margin: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .cardList {
     flex-direction: column;
+  }
+
+  .cardList li {
+    width: 100%;
+    min-width: 0;
   }
 }
 

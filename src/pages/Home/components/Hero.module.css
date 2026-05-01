@@ -61,7 +61,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    margin: 0 1rem;
+    margin: 0;
   }
 
   .actionButtons {
