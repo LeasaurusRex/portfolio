@@ -12,7 +12,7 @@ function Projects() {
     "TanStack Query",
     "Recharts",
   ];
-  const interligneStack = ["Angular", "NestJS", "PostgreSQL"];
+  // const bibliophilusRexStack = ["Angular", "NestJS", "PostgreSQL"];
 
   return (
     <section className={`pageWrapper ${styles.container}`}>
@@ -62,22 +62,22 @@ function Projects() {
         <li>
           <ProjectCard
             title="Internal Dashboard"
-            description="Projet réalisé dans le cadre du test technique organisé par l'équipe de <Alt/> en amont du Hackathon de mars 2026. Il s'agit d'un outil de gestion d'outils interne et de métriques, avec un cahier des charges complet. Dans sa version actuelle, le projet n'est pas terminé et se base sur un JSON server, mais une migration sur une base de données PostgreSQL est prévue, ainsi que l'ajout de fonctionnalités."
+            description="Projet réalisé dans le cadre du test technique organisé par l'équipe de <Alt/> en amont du Hackathon de mars 2026. Il s'agit d'un SaaS de gestion d'outils interne et de métriques, avec un cahier des charges complet. Dans sa version actuelle, le projet n'est pas terminé et se base sur un JSON server, mais une migration sur un back en NestJS et une base de données en PostgreSQL est prévue dans le futur, ainsi que l'amélioration du front et l'ajout de fonctionnalités."
             headerColor="peach"
             status="IN_PROGRESS"
             stack={dashboardStack}
             repoLink="https://gitlab.com/Leasaur/techcorp-dashboard"
           />
         </li>
-        <li>
+        {/* <li>
           <ProjectCard
-            title="Interligne"
-            description="Application web de suivi de lecture, qui utilise l'API externe OpenISBN. La première version proposera la création de collections, avec des statuts (à lire, lu, abandonné...), un système de notation et de commentaire. Les phases suivantes pourront comporter un aspect communautaire, des recommandations, un tri plus poussé... Inspiration de Goodreads, The StoryGraph et Babelio. Développement prévu en avril 2026."
-            headerColor="ink20"
-            status="SOON"
-            stack={interligneStack}
+            title="Bibliophilus Rex"
+            description="Application web de suivi de lecture, inspirée de Goodreads, The StoryGraph et Babelio. API externe OpenISBN."
+            headerColor="sky"
+            status="IN_PROGRESS"
+            stack={bibliophilusRexStack}
           />
-        </li>
+        </li> */}
       </ul>
     </section>
   );
