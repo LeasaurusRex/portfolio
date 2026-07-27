@@ -32,47 +32,51 @@ export function ProjectCard({
         className={styles.card}
       >
         <div className={styles.cardContainer}>
-          <h2 className={styles.cardTitle}>{title}</h2>
-          <p>{description}</p>
-          <div className={styles.badgesList}>
-            {stack.map((tech, index) => (
-              <Badge
-                key={tech}
-                variant={BADGE_COLORS[index % BADGE_COLORS.length]}
-              >
-                {tech}
-              </Badge>
-            ))}
+          <div className={styles.cardBody}>
+            <h2 className={styles.cardTitle}>{title}</h2>
+            <p>{description}</p>
           </div>
-          {(repoLink || siteLink) && (
-            <div className={styles.cardFooter}>
-              <hr aria-hidden="true" />
-              <div className={styles.footerLinksContainer}>
-                {repoLink && (
-                  <a
-                    className={styles.footerLink}
-                    href={repoLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Voir le code source de ${title} sur le repository (nouvel onglet)`}
-                  >
-                    Repo →
-                  </a>
-                )}
-                {siteLink && (
-                  <a
-                    className={styles.footerLink}
-                    href={siteLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={`Voir le projet ${title} en ligne (nouvel onglet)`}
-                  >
-                    Voir en ligne →
-                  </a>
-                )}
-              </div>
+          <div className={styles.cardFooter}>
+            <div className={styles.badgesList}>
+              {stack.map((tech, index) => (
+                <Badge
+                  key={tech}
+                  variant={BADGE_COLORS[index % BADGE_COLORS.length]}
+                >
+                  {tech}
+                </Badge>
+              ))}
             </div>
-          )}
+            {(repoLink || siteLink) && (
+              <>
+                <hr aria-hidden="true" />
+                <div className={styles.footerLinksContainer}>
+                  {repoLink && (
+                    <a
+                      className={styles.footerLink}
+                      href={repoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Voir le code source de ${title} sur le repository (nouvel onglet)`}
+                    >
+                      Repo →
+                    </a>
+                  )}
+                  {siteLink && (
+                    <a
+                      className={styles.footerLink}
+                      href={siteLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Voir le projet ${title} en ligne (nouvel onglet)`}
+                    >
+                      Voir en ligne →
+                    </a>
+                  )}
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </Window>
     </article>
